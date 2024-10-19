@@ -3,12 +3,12 @@ import Carousel from 'react-bootstrap/Carousel';
 function Carousels() {
     return (
         <Carousel data-bs-theme="white">
-            <Carousel.Item className='h-25' style={{ height: '200px' }}>
+            <Carousel.Item className='h-25' style={{ height: '300px' }}>
                 <img
                     className="d-block w-100"
                     src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/77e402bbfdae0e68.jpg?q=20"
                     alt="First slide"
-                    style={{ height: '200px' }}
+                    style={{ height: '300px' }}
                 />
                 {/* <Carousel.Caption className='text-white'>
                     <h5>Cart Management System</h5>
