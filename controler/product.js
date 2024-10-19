@@ -4,7 +4,7 @@ const multer = require('multer');
 const { unlink } = require('fs').promises;
 
 const path = require('path');
-const parentDir = path.join(__dirname, '..', 'frontcode', 'build/');
+const parentDir = path.join(__dirname, '..', 'frontcode', 'public/');
 
 // -----------------------------------DELETE FILE------------------------------------------
 
