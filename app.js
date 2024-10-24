@@ -28,7 +28,7 @@ app.use('/api/v3', category);
 app.use('/api/v4', product);
 app.use('/api/v5', order);
 
-app.use(express.static(path.join(__dirname, 'frontcode/build')));
+app.use(express.static(path.join(__dirname, '/frontcode/build')));
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname+'/frontcode/build/index.html'));
 });
